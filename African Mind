@@ -1,0 +1,55 @@
+print('''
+*******************************************************************************
+            ___________
+           / |       | |
+        ,' ,'         \/',_    __
+     ,'__/             |    ',|  "'-,,,,,,,
+   ,/  _|',            |                |   \
+   |  |   |',           \               |    \
+   |__|   |  ',          ',             |     \
+  /       |     ',        ,_"""""---'-_,'______\
+ /        |        ',,_-'"    |        |        ',
+|_________|         |         /        |        / ',,'""""|
+|__  |        ,____/         |        _|       /    |___  /
+'\___|      ,'_,'|_,-,_______|         |       /      , '/
+  \,' _', _/  ,, ,',|        |          \       |   '" ,'
+   \ / |_ ,  |  \||||       ,' |      ,'|    _""    |,'
+    ' ,'  ', |  ||||| __ ,'   _|_ ,'    |    |""---/
+       ' ,"""','"""""" |     /           \"""|    /
+                      |_____|_      __''"    \   |
+                     |  |  /  """"""   |      \ /
+                      \ / |            |       /
+                       \--'            |      /
+                       |   \__        _|__    |
+                       |      |__     |   ',,,|
+                       |         |____|   /   |
+                       /         _|    ,,'_   |
+                      |__________|___,'  ,,' /
+                       \      ---'    \,/  ,'
+                        \     |    ,,,' \_/
+                         |    |_,''      |/
+                         |    |       []_|
+                          \___'        /
+                           \       __,'
+                            \_____/        Born Again African Mind
+*******************************************************************************
+''')
+print("Welcome to the Nile Valley.")
+print("Your mission is to raise your consciousness.") 
+
+question1 = input("You're at a cross roads between material things or knowledge. Mind or Matter? ")
+
+if question1 == "Mind":
+  question2 = input("books or cars ")
+  if question2 == "books":
+    question3 = input("Which country? Kemet, Egypt, or Ethiopia ")
+    if question3 == "Kemet":
+      print("You Win! You have found your mind in the Valley of the Nile.")
+    elif question3 == "Egypt":
+      print("Captured by invaders. You lost.")
+    else:
+      print("Shipped to Elmina Castle. You lost.")
+  else:
+    print("Game Over.")
+else:
+  print("Game Over.")
